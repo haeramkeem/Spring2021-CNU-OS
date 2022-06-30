@@ -1,4 +1,4 @@
-# 실습05 - 파일디스크립터, IPC방법들, 동기화
+# 05 - File Descriptor, IPC
 
 ## File Descriptor
 

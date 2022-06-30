@@ -1,8 +1,8 @@
-# 실습02 - VI, GCC, GDB
+# 02 - VI, GCC, GDB
 
 ## gcc 옵션 참고해라
 
-![%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B802%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image1.png](%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B802%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image1.png)
+![02%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image1.png](02%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image1.png)
 
 - 딴건몰라도 -o, -c, -g는 알아야된다
 
@@ -12,7 +12,7 @@
 
 Main.c, read.c, write.c, io.h를 가지고 test를 만드는 make코드
 
-![%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B802%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image2.png](%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B802%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image2.png)
+![02%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image2.png](02%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image2.png)
 
 destination : dependency
 
@@ -24,7 +24,7 @@ command
 
 대문자들이 메크로니까 잘 읽어봐라
 
-![%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B802%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image3.png](%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B802%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image3.png)
+![02%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image3.png](02%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image3.png)
 
 - **OBJECT** 변수 : 만들 오브젝트 파일들을 명시
 - **CC** 변수 : gcc
@@ -32,13 +32,13 @@ command
 
 ### make 자동 메크로
 
-![%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B802%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image4.png](%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B802%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image4.png)
+![02%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image4.png](02%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image4.png)
 
 - **$^** : 모든 dependency를 가져오는 메크로
 
 ### make suffixes
 
-![%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B802%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image5.png](%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B802%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image5.png)
+![02%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image5.png](02%20-%20VI,%20GCC,%20GDB%20fc76e118e9ce4a4daf8bf5fea47a11a7/image5.png)
 
 - **.SUFFIXES** : 확장자 목록?이라고 생각하면 된다
     - 사용할때 **%.확장자**이래해주면 그 확장자를 가진 모든 파일을 대변하는 느낌
